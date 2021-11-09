@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.top {
+    background-color: #333333;
+}
+
+/* Navigation */
+
+.nav {
+    width: 1080px;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto 20px;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-left: 408px;
+}
+
+/* / End of Nav / */
+
+/* / Main section / */
+
+.container {
+    color: black;
+    margin: 0 auto;
+    width: 1063px;
+}
+
+.main {
+    display: flex;
+}
+
+/* / Left Section */ 
+
+.left {
+    flex: 2;
+}
+
+.cards {
+    border: 3px solid gray;
+    margin: 20px 10px;
+}
+
+.user-card-header {
+    background-color: #4193ad;
+    color: white;
+    height: 70px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.user-img {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-top: 40px;
+    padding: 3px;
+    width: 75px;
+}
+
+#location {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.user-location {
+    margin: 10px 0;
+    padding-right: 10px;
+    height: 25px;
+}
+
+.title {
+    padding: 0 0 6px 0;
+}
+
+#settings {
+    display: flex;
+    align-items: center;
+}
+
+#settings-icon {
+    margin: 10px 10px 10px 0;
+    width: 20px;
+}
+
+.card-body {
+    padding: 18px;
+}
+
+/* Education Card */
+
+.card-stacks, .dates, #bootcamp {
+    padding: 5px 12px;
+}
+
+.card-header {
+    background-color: black;
+    color: white;
+    padding: 20px 13px;
+}
+
+.dates {
+    color: gray;
+}
+
+.card-stacks {
+    font-weight: bold;
+}
+
+/* Right Section */
+
+.right{
+    flex: 1;
+}
+
+.num {
+    background-color: gray;
+    border-radius: 50%;
+    color: black;
+    padding: 3px 8px;
+}
+
+.new-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-icon, .accept {
+    display: flex;
+    align-items: center;
+}
+
+.pic {
+    border-radius: 50%;
+    padding: 8px;
+    width: 40px;
+}
+
+.user-icon, .icons {
+    padding: 5px;
+    width: 30px;
+}
+
+.more {
+    border-top: 3px solid gray;
+    padding: 20px;
+}
+
+
