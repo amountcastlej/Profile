@@ -2,4 +2,4 @@
 
 ![Profile](https://raw.githubusercontent.com/amountcastlej/Profile/main/profile.png)
 
-For this project we had to recreate the wireframe using the skills we have learned in Flexbox
+For this project I recreated this wireframe using the skills I learned in Flexbox
